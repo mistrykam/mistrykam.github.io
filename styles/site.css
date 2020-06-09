@@ -17,13 +17,19 @@ header ul {
 
 header ul li {
   float: left;
-  padding: 16px;
+  padding: 10px;
 }
 
 header ul li a {
   text-decoration: none;
   color: rgba(216, 230, 224, 0.986);
   text-transform: uppercase;
+  text-decoration-line: none;
+  padding: 5px;
+}
+
+header ul li a:hover {
+  background-color: #7586a1;
 }
 
 .menu {

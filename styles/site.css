@@ -7,15 +7,31 @@
 
 header {
   position: sticky;
-  background-color: black;
+  background-color: #5e769f;
   color: cornsilk;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  float: left;
+  padding: 16px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: rgba(216, 230, 224, 0.986);
+  text-transform: uppercase;
 }
 
 .menu {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 6fr 2fr;
   grid-template-rows: auto;
   justify-items: center;
+  align-items: center;
 }
 
 .container {
@@ -29,5 +45,7 @@ header {
 
 footer {
   margin: auto;
+  padding-top: 20px;
   text-align: center;
+  font-size: 0.8em;
 }

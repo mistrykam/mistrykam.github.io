@@ -1,57 +1,7 @@
 * {
-  margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.1em;
-  /* border: 1px dashed red;    */
 }
 
-header {
-  position: sticky;
-  background-color: #5e769f;
-  color: cornsilk;
-}
-
-header ul {
-  list-style: none;
-}
-
-header ul li {
-  float: left;
-  padding: 10px;
-}
-
-header ul li a {
-  text-decoration: none;
-  color: rgba(216, 230, 224, 0.986);
-  text-transform: uppercase;
-  text-decoration-line: none;
-  padding: 5px;
-}
-
-header ul li a:hover {
-  background-color: #7586a1;
-}
-
-.menu {
-  display: grid;
-  grid-template-columns: 2fr 6fr 2fr;
-  grid-template-rows: auto;
-  justify-items: center;
-  align-items: center;
-}
-
-.container {
-  margin: auto;
-  width: 90%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  justify-items: center;
-}
-
-footer {
-  margin: auto;
-  padding-top: 20px;
-  text-align: center;
-  font-size: 0.8em;
+.blog-header-logo {
+  font-size: 2.25rem;
 }

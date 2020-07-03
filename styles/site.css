@@ -1,11 +1,11 @@
 * {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.blog-header-logo {
-  font-size: 2.25rem;
+  font-family: "Inter", "Helvetica", sans-serif;
 }
 
 .bg-menu {
   background-color: #ffffcc;
+}
+
+.card {
+  background-color: lightyellow;
 }

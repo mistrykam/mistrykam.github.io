@@ -8,7 +8,7 @@ a:hover {
 }
 
 .home-background {
-  background-image: url("https://images.pexels.com/photos/1309644/pexels-photo-1309644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("/images/home-background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;

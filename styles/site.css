@@ -17,15 +17,15 @@ a:hover {
 }
 
 .home-grid-container {
+  display: grid;
   height: 100vh;
   width: 100%;
-  display: grid;
   justify-content: center;
   align-content: center;
 }
 
 .home-item-highlight {
-  background-color: rgba(7, 6, 6, 0.438);
+  background-color: rgba(7, 6, 6, 0.644);
 }
 
 .home-title-text {
@@ -36,7 +36,7 @@ a:hover {
 
 .home-menu-text {
   font-size: 1.3rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: rgb(241, 200, 85);
 }
 

@@ -1,5 +1,43 @@
 * {
   font-family: "Inter", "Helvetica", sans-serif;
+  /* border: 1px red solid; */
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.home-background {
+  background-image: url("https://images.pexels.com/photos/1309644/pexels-photo-1309644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.home-grid-container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.home-item-highlight {
+  background-color: rgba(7, 6, 6, 0.438);
+}
+
+.home-title-text {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: rgba(236, 236, 246, 0.972);
+}
+
+.home-menu-text {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: rgb(241, 200, 85);
 }
 
 .bg-menu {

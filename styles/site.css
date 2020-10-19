@@ -40,6 +40,14 @@ a:hover {
   color: rgb(241, 200, 85);
 }
 
+.page-background {
+  background-color: #333333bb;
+}
+
+.nav-item.active {
+  font-weight: 600;
+}
+
 .bg-menu {
   background-color: #ffffcc;
 }

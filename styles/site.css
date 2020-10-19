@@ -46,6 +46,8 @@ a:hover {
 
 .nav-item.active {
   font-weight: 600;
+  background-color: rgba(255, 166, 0, 0.157);
+  border-radius: 5px;
 }
 
 .bg-menu {

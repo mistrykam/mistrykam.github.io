@@ -31,6 +31,7 @@ a:hover {
 
 .home-item-highlight {
   background-color: rgba(7, 6, 6, 0.644);
+  padding-bottom: 6px;
 }
 
 .home-title-text {
@@ -43,6 +44,13 @@ a:hover {
   font-size: 1.3rem;
   text-transform: lowercase;
   color: rgb(241, 200, 85);
+}
+
+.home-menu-text:hover {
+  border-radius: 5px;
+  background-color: rgba(7, 6, 6, 0.363);
+  color: rgb(222, 223, 174);
+  text-decoration: none;
 }
 
 .page-background {

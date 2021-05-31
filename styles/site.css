@@ -75,5 +75,11 @@ a:hover {
 
 .card-img-top {
     width: 100%;
-    height: auto;
+    height: 123px;
+}
+@media only screen and (max-width: 600px) {
+    /* Probably some parent element that limits the img width */
+    .card-img-top {
+        height: 44px;
+    }
 }

@@ -17,6 +17,7 @@ async function loadPost() {
     try {
         const md = await fetch(`/blog/posts/${id}.md`).then((r) => r.text());
         contentEl.innerHTML = marked.parse(md);
+        document.title = document.title + " | " + id;
     } catch (err) {
         contentEl.innerHTML = "<p>Post not found.</p>";
     }

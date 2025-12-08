@@ -11,7 +11,7 @@ async function loadPosts() {
         const item = document.createElement("div");
         item.className = "post-item";
         item.innerHTML = `
-      <h2><a href="post.html?id=${post.id}">${post.title}</a></h2>
+      <h4 class="card-title"><a href="post.html?id=${post.id}">${post.title}</a></h4>
       <p>${post.date}</p>
       <hr>
     `;

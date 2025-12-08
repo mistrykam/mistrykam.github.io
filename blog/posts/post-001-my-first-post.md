@@ -1,4 +1,4 @@
-## My First Post
+### My First Post
 
 "Most of us have two lives. The life we live, and the unlived life within us. Between the two stands Resistance."
 

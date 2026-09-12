@@ -77,6 +77,11 @@ a:hover {
     width: 100%;
     height: 123px;
 }
+
+footer {
+    color: lemonchiffon;
+}
+
 @media only screen and (max-width: 600px) {
     /* Probably some parent element that limits the img width */
     .card-img-top {

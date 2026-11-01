@@ -337,7 +337,7 @@ a:hover {
 .hero-photo {
     position: relative;
     width: 100%;
-    max-width: 455px;
+    max-width: 355px;
     aspect-ratio: 0.88;
     justify-self: end;
     margin: 0;

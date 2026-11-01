@@ -10,9 +10,7 @@ const savedTheme = (() => {
 const initialTheme =
     savedTheme === "light" || savedTheme === "dark"
         ? savedTheme
-        : window.matchMedia("(prefers-color-scheme: dark)").matches
-          ? "dark"
-          : "light";
+        : "light";
 
 document.documentElement.dataset.theme = initialTheme;
 
